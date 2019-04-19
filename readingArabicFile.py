@@ -1,9 +1,9 @@
 import codecs
-from checkerNer import removeDuplicates;
-from checkerNer import isUnique;
-from checkerNer import isEntity;
-from RangeSentence import trainData;
-from RangeSentence import wordLocation;
+from repobach.checkerNer import removeDuplicates;
+from repobach.checkerNer import isUnique;
+from repobach.checkerNer import isEntity;
+from repobach.RangeSentence import trainData;
+from repobach.RangeSentence import wordLocation;
 
 
 class WordEntity:

@@ -11,8 +11,8 @@ For more details, see the documentation:
 Compatible with: spaCy v2.0.0+
 """
 from __future__ import unicode_literals, print_function
-from readingArabicFile import readingFileGenerateTrainData
-from gatherRandomTestData import getSubsetDataToTrainV2
+from repobach.readingArabicFile import readingFileGenerateTrainData
+from repobach.gatherRandomTestData import getSubsetDataToTrainV2
 import plac
 import random
 from pathlib import Path
