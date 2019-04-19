@@ -216,6 +216,6 @@ def trainModelV2(fileToReadArray,outputDirectory,iterationNumber,fileToWrite):
 
 
 #trainModel(["annOutput.txt","annOutput2.txt"],None,1,"randomTestData.txt")
-trainModelV2(["ThreeLanguageAllAqmarForTraining.txt"],None,1,"FixedTestDataM6.txt")
+#trainModelV2(["ThreeLanguageAllAqmarForTraining.txt"],None,1,"FixedTestDataM6.txt")
 
 
