@@ -87,11 +87,12 @@ def trainModel(fileToReadArray,outputDirectory,iterationNumber):
         with nlp.disable_pipes(*other_pipes):  # only train NER
             optimizer = nlp.begin_training()
             for itn in range(n_iter):
-		print("n_iter",itn)
+                print("iter",itn)
+
                 random.shuffle(TRAIN_DATA)
                 losses = {}
                 for text, annotations in TRAIN_DATA:
-		    print("here")
+                    print("here")
                     nlp.update(
                         [text],  # batch of texts
                         [annotations],  # batch of annotations
